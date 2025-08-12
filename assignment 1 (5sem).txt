@@ -1,0 +1,34 @@
+<html>
+  <body>
+    <canvas id="mycanvas" width="400" height="400" style="border:1PX SOLID black; Background-color:lightblue";></canvas>
+    <script>
+      const c = document.getElementById("mycanvas");
+      const ctx = c.getContext("2d");
+
+      
+      ctx.beginPath();
+      ctx.arc(205, 210, 100, 0, Math.PI * 2);
+      ctx.fillStyle = "yellow";
+      ctx.fill();
+      ctx.stroke();
+
+      
+      ctx.beginPath();
+      ctx.arc(160, 170, 10, 0, Math.PI * 2);
+      ctx.fillStyle = "black";
+      ctx.fill();
+
+      
+      ctx.beginPath();
+      ctx.arc(240, 170, 10, 0, Math.PI * 2);
+      ctx.fillStyle = "black";
+      ctx.fill();
+
+      
+      ctx.beginPath();
+      ctx.arc(200, 210, 50, 0, Math.PI);
+      ctx.fill();
+    
+    </script>
+  </body>
+</html>

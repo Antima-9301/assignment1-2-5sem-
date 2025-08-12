@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Educational Details</title>
+<style>
+body { background-color:white; font-family: Arial; }
+table { border: 1px solid black; border-collapse: collapse; width: 90%; margin-bottom: 50px; margin:"center";}
+th, td { border: 1px solid black; padding: 8px; text-align: center; }
+th { background-color: lightblue; }
+td { background-color:broun; }
+h2 { color: solid black; }
+</style>
+</head>
+<body>
+
+<h2>Educational Qualifications</h2>
+<table>
+  <tr><th>Qualification</th><th>Board/University</th><th>Year</th><th>Percentage/CGPA</th></tr>
+  <tr><td>10th</td><td>MP Board</td><td>2021</td><td>84%</td></tr>
+  <tr><td>12th</td><td>MP Board</td><td>2023</td><td>87%</td></tr>
+  <tr><td>B.Tech</td><td>AKS University</td><td>2025</td><td>7.57</td></tr>
+</table>
+
+<h2>Class 10th Marks</h2>
+<table>
+  <tr><th>Subject</th><th>Obtained Marks</th><th>Maximum Marks</th><th>Grade</th></tr>
+  <tr><td>Maths</td><td>70</td><td>100</td><td>A</td></tr>
+  <tr><td>Science</td><td>84</td><td>100</td><td>A</td></tr>
+  <tr><td>English</td><td>86</td><td>100</td><td>A</td></tr>
+  <tr><td>Social Science</td><td>87</td><td>100</td><td>A</td></tr>
+  <tr><td>Hindi</td><td>95</td><td>100</td><td>A+</td></tr>
+  <tr><th>Total number</th><th>422</th><th>500</th><th>A</th></tr>
+  <tr><th>Percentage</th><th>84.4%</th><th>Rank</th><th>-</th></tr>
+  <tr><th>Division</th><th>FIRST</th><th>Result</th><th>PASS</th></tr>
+</table>
+
+</body>
+</html>
